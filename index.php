@@ -210,6 +210,7 @@ $app_name = idx($app_info, 'name', '');
 
     <header class="clearfix">
       <?php if (isset($basic)) { ?>
+	  <p>TEST 12d></p>
       <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
 
       <div>
